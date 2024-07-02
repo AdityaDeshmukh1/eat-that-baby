@@ -7,11 +7,16 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
-    <h1>Select a Baby</h1>
+    <h1 class="glow">EAT THAT BABY !!!</h1>
     <div id="baby-container">
         <img id="baby1" class="baby-image" src="" alt="Baby 1" onclick="selectBaby('baby1', 'baby2')">
         <img id="baby2" class="baby-image" src="" alt="Baby 2" onclick="selectBaby('baby2', 'baby1')">
     </div>
+
+    <div id="trademark">
+        An exclusive game for Sneha "baby eater" Arora &#8482;
+    </div>
+
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>
